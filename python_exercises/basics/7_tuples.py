@@ -35,5 +35,8 @@ print(tpl1.count("Hi"))
 # print index of Hello in tpl1
 print(tpl1.index("Hi"))  # Index method returns first occurence index
 
+# delete a tuple
+del tpl1  # this deletes tuple
+
 # Check out how to iterate through tuple
 # Why tuples are immutable

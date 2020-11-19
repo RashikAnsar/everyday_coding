@@ -14,7 +14,7 @@ void bubble_sort(int a[], int n) {
 }
 
 int main() {
-  int n, key;
+  int n;
   cout << "Number of elements in array: ";
   cin >> n;
 

@@ -12,7 +12,7 @@ int clearLastIBits(int n, int i) {
 int clearRangeItoJ(int n, int i, int j) {
   int ones = (~0);
   int a = ones << (j + 1);
-  int b = (1 << j) - 1;
+  int b = (1 << i) - 1;
   int mask = a | b;
   return n & mask;
 }
